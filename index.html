@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Accessible and SEO-Friendly Example Web Page</title>
+  <meta name="description" content="A beginner-friendly, accessible, and SEO-optimized example web page using HTML5 semantic elements." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic tags, screen readers, web development" />
+  <meta name="author" content="Your Name" />
+  
+  <!-- No CSS or JavaScript as per guidelines -->
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to Our Accessible and SEO-Friendly Website</h1>
+    <p>Providing a well-structured example page focusing on semantic HTML5, accessibility, and SEO.</p>
+  </header>
+
+  <nav role="navigation" aria-label="Primary navigation">
+    <ul>
+      <li><a href="#section-intro" accesskey="1">Introduction</a></li>
+      <li><a href="#section-features" accesskey="2">Features</a></li>
+      <li><a href="#section-contact" accesskey="3">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section id="section-intro" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>This web page demonstrates the use of HTML5 semantic elements to create a clean, accessible structure optimized for search engines.</p>
+    </section>
+
+    <section id="section-features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article aria-labelledby="feature1-heading">
+        <h3 id="feature1-heading">Semantic HTML5 Elements</h3>
+        <p>Use of <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> tags to create meaningful page structure.</p>
+      </article>
+      <article aria-labelledby="feature2-heading">
+        <h3 id="feature2-heading">Accessibility Enhancements</h3>
+        <p>Proper use of ARIA roles, labels, and access keys boosts navigation ease for users with assistive technologies.</p>
+      </article>
+      <article aria-labelledby="feature3-heading">
+        <h3 id="feature3-heading">SEO Best Practices</h3>
+        <p>An organized heading hierarchy and descriptive metadata ensure discoverability by search engines and clarity for readers.</p>
+      </article>
+    </section>
+
+    <section id="section-contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>For inquiries, email us at <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890" aria-label="Call us at plus one two three four five six seven eight nine zero">+1 234 567 890</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
